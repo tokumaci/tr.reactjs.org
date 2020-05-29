@@ -142,7 +142,7 @@ class SignUpDialog extends React.Component {
   render() {
     return (
       <Dialog title="Mars Keşif Programı"
-              message="Size nasıl başvurabiliriz?">
+              message="Size nasıl hitap edebiliriz?">
         <input value={this.state.login}
                onChange={this.handleChange} />
         <button onClick={this.handleSignUp}>
